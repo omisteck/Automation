@@ -6,6 +6,23 @@ on:
   pull_request:
     branches: [ "master" ]
 
+env:
+  APP_NAME: "Laravel"
+  APP_ENV: "local"
+  APP_KEY: "base64:htfK6/TFezItuFscyncxN+dWqLoml4XpZIAXatiWPDo="
+  APP_URL: "http://localhost"
+  
+  LOG_CHANNEL: "stack"
+  LOG_DEPRECATIONS_CHANNEL: ""
+  LOG_LEVEL: "debug"
+  
+  BROADCAST_DRIVER: "log"
+  CACHE_DRIVER: "file"
+  FILESYSTEM_DISK: "local"
+  QUEUE_CONNECTION: "sync"
+  SESSION_DRIVER: "file"
+  SESSION_LIFETIME: "120"
+
 jobs:
   Build:
 
